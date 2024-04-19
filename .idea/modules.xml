@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/features/arch_search/melos_arch_search.iml" filepath="$PROJECT_DIR$/features/arch_search/melos_arch_search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/features/fav_app/melos_fav_app.iml" filepath="$PROJECT_DIR$/features/fav_app/melos_fav_app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/features/home_app/melos_home_app.iml" filepath="$PROJECT_DIR$/features/home_app/melos_home_app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/features/profile_app/melos_profile_app.iml" filepath="$PROJECT_DIR$/features/profile_app/melos_profile_app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/melos_treinamento_modular.iml" filepath="$PROJECT_DIR$/melos_treinamento_modular.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,35 @@
+name: modular_app_example
+description: "A new Flutter project."
+publish_to: none
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  flutter_modular: ^6.3.2
+
+  # imports dos MicroApps/Fronts
+  profile_app:
+    path: ../features/profile_app
+  home_app:
+    path: ../features/home_app
+  fav_app:
+    path: ../features/fav_app
+  arch_search:
+    path: ../features/arch_search
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+
+  uses-material-design: true

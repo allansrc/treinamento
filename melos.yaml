@@ -1,0 +1,41 @@
+name: treinamento_modular
+
+
+command:
+  bootstrap:
+    environment:
+      sdk: '>=3.0.0 <4.0.0'
+      flutter: ">=3.10.4 <=3.19.0"
+
+    dependencies:
+      flutter_modular: ^6.3.2
+      url_launcher: ^6.0.6
+
+    usePubspecOverrides: true
+
+       
+packages:
+  - "modular_app_example/**"
+  - "features/**"
+
+
+
+versioning:
+  mode: independent
+
+ide:
+  intellij: true # campo booleano
+  vscode: true # campo booleano
+
+scripts:
+  opa: echo "Olá, mundo!"
+  
+  test: flutter test
+  format: flutter format .
+  analyze: flutter analyze
+  build: flutter build apk
+  run: flutter run
+  clean: flutter clean
+  pub_get: flutter pub get
+  pub_upgrade: flutter pub upgrade
+  
