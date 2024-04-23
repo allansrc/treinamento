@@ -1,0 +1,10 @@
+# melos_managed_dependency_overrides: arch_search,fav_app,home_app,profile_app
+dependency_overrides:
+  arch_search:
+    path: ..\\features\\arch_search
+  fav_app:
+    path: ..\\features\\fav_app
+  home_app:
+    path: ..\\features\\home_app
+  profile_app:
+    path: ..\\features\\profile_app

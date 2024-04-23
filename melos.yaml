@@ -15,7 +15,7 @@ command:
 
        
 packages:
-  - "modular_app_example/**"
+  - "modular_app_example"
   - "features/**"
 
 

@@ -8,6 +8,8 @@ environment:
   flutter: ">=3.10.4 <=3.19.0"
 
 dependencies:
+  flutter:
+    sdk: flutter
   flutter_modular: ^6.3.2
 
 dev_dependencies:

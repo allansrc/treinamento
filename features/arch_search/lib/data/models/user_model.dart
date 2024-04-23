@@ -1,31 +1,39 @@
+import '../../domain/domain.dart';
+
 class UserModel {
   final String name;
-  final String email;
-  final String phone;
+  final String username;
   final String picture;
+  final String url;
 
   UserModel({
     required this.name,
-    required this.email,
-    required this.phone,
+    required this.username,
     required this.picture,
+    required this.url,
   });
 
   factory UserModel.fromJson(Map<String, dynamic> json) {
     return UserModel(
       name: json['login'],
-      email: json['email'],
-      phone: json['phone'],
+      username: json['login'],
       picture: json['avatar_url'],
+      url: json['url'],
     );
   }
+
+  UserEntity toEntity() => UserEntity(
+        name: name,
+        username: username,
+        picture: picture,
+        url: url,
+      );
 
   Map<String, dynamic> toJson() {
     return {
       'login': name,
-      'email': email,
-      'phone': phone,
       'avatar_url': picture,
+      'url': url,
     };
   }
 }
